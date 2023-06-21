@@ -38,10 +38,6 @@ steps:
     configuration: '$(buildConfiguration)'
 
 
-- task: SonarCloudAnalyze@1
-  inputs:
-    jdkversion: 'JAVA_HOME'
-
 - task: SonarCloudPublish@1
   inputs:
     pollingTimeoutSec: '300'
