@@ -39,8 +39,6 @@ steps:
     msbuildArchitecture: 'x64'
 
 - task: SonarCloudAnalyze@1
-  inputs:
-    jdkversion: 'JAVA_HOME_11_X64'
 
 
 - task: SonarCloudPublish@1
